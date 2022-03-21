@@ -13,4 +13,4 @@ The dataset consists of 70,000+ satellite images that are cropped to 366x366. [E
 
 ## Next Steps: 
 
-I would like to set up transfer learning, but I'm not sure what pretrained model would be a good fit for this dataset. I'd also like to test this dataset against the enhanced infrared image dataset [example image here]().
+I would like to set up transfer learning, but I'm not sure what pretrained model would be a good fit for this dataset. I'd also like to test this dataset against the enhanced infrared image dataset: [example image here](https://github.com/saramoira/deep_learning/blob/main/images/2019al10_4kmirimg_201909182300.gif).
