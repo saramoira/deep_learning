@@ -4,7 +4,7 @@ Build a CNN classifier to label satellite images of tropical cyclones with corre
 
 ## Data Profile:
 
-The dataset consists of 70,000+ satellite images that are cropped to 366x366. [Example image here](). The images are organized into folders by wind speed at the time the image was taken. 
+The dataset consists of 70,000+ satellite images that are cropped to 366x366. [Example image here](https://github.com/saramoira/deep_learning/blob/main/images/image_al102020.jpg). The images are organized into folders by wind speed at the time the image was taken. 
 
 ## Done So Far:
 
