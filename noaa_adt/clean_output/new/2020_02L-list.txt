@@ -1,0 +1,9 @@
+=====  ADT-Version 8.2.1 =====
+                  ----Intensity--- -Tno Values-- ---TnoCI Rules---  -Temperature-                    
+           Time         MSLPVmax   Fnl Adj Ini   Cnstrnt Wkng Rpd    Cntr   Mean   Scene  EstRMW   MW   Storm Location  Fix
+   Date    (UTC)   CI  (CKZ)(kts)  Tno Raw Raw    Limit  Flag Wkng  Region  Cloud  Type    (km)  Score   Lat     Lon    Mthd    Sat   VZA  Comments
+2020MAY27 120000  2.8  998.1  41.0  2.8 2.8 2.8  none  OFF  OFF  -58.16 -54.61  UNIFRM   NA    NA   32.47   79.33  FCST   GOES16 38.0 
+2020MAY27 123000  2.9  996.8  43.0  2.9 3.0 3.4  0.2Thour OFF  OFF  -55.16 -54.21  CRVBND   NA    NA   32.64   79.36  FCST   GOES16 38.2 
+2020MAY27 130000  2.9  996.7  43.0  2.9 2.9 2.9  none  OFF  OFF  -49.16 -52.22  CRVBND   NA    NA   32.70   79.40  FCST   GOES16 38.3 
+2020MAY27 133000  2.9  996.7  43.0  2.9 3.2 3.2  none  OFF  OFF  -57.16 -50.74  CRVBND   NA    NA   32.75   79.44  FCST   GOES16 38.4 
+
