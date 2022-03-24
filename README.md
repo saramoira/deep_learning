@@ -14,8 +14,8 @@ I downloaded two two different image datasets for comparison: [GOES 4km Remapped
      <td>Hurricane Dorian 2km with BD Enhancement Curve</td>
   </tr>
   <tr>
-    <td><img src="https://github.com/saramoira/deep_learning/blob/main/images/Dorian_4km_300.gif"></td>
-    <td><img src="https://github.com/saramoira/deep_learning/blob/main/images/Dorian_2km_300.gif"></td>
+    <td><img src="https://github.com/saramoira/deep_learning/blob/main/images/Dorian_4km_small.gif"></td>
+    <td><img src="https://github.com/saramoira/deep_learning/blob/main/images/Dorian_2km_small.gif"></td>
   </tr>
  </table>
 
