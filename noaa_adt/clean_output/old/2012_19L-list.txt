@@ -1,0 +1,4 @@
+                  --------Intensity------- -Tno Values-- ---TnoCI Rules---  -Temperature-                 
+           Time        FinalMSLPLatVmax   Fnl Adj Ini   Cnstrnt Wkng Rpd    Cntr   Mean   Scene  EstRMW   Storm Location  Fix
+   Date    (UTC)   CI  MSLP BiasAdj(kts)  Tno Raw Raw    Limit  Flag Wkng  Region  Cloud  Type    (km)     Lat     Lon    Mthd   Comments
+2012DEC12 144500  2.5 1005.0  +0.0  35.0  2.5 2.5 2.5  none  OFF  OFF   15.17   9.24  SHEAR    NA    31.63   32.14   FCST   
