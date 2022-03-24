@@ -1,0 +1,6 @@
+=====  ADT-Version 8.1.4 =====
+                  ----Intensity--- -Tno Values-- ---TnoCI Rules---  -Temperature-                    
+           Time         MSLPVmax   Fnl Adj Ini   Cnstrnt Wkng Rpd    Cntr   Mean   Scene  EstRMW   MW   Storm Location  Fix
+   Date    (UTC)   CI  (CKZ)(kts)  Tno Raw Raw    Limit  Flag Wkng  Region  Cloud  Type    (km)  Score   Lat     Lon    Mthd    Sat   VZA  Comments
+
+
