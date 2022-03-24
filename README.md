@@ -8,10 +8,16 @@ I built and tuned two CNN multi-label image classifiers (trained on different da
 
 I downloaded two two different image datasets for comparison: [GOES 4km Remapped Color Enhanced Infrared Imagery](), and [GOES 2km Relative IR Imagery with BD Enhancement Curve](). The 4km dataset uses an earth-fixed coordinate system, and the 2km dataset uses a storm-fixed coordinate system:
 
-![GOES 4km Color Enhanced Infrared: Animation](https://github.com/saramoira/deep_learning/blob/main/images/Dorian_4km_300.gif) 
-GOES 4km Color Enhanced Infrared: Animation
-![GOES 2km Infrared with BD Enhancement Curve: Animation](https://github.com/saramoira/deep_learning/blob/main/images/Dorian_2km_300.gif)
-GOES 2km Infrared with BD Enhancement Curve: Animation
+<table>
+  <tr>
+    <td>Hurricane Dorian 4km Color Enhanced</td>
+     <td>Hurricane Dorian 2km with BD Enhancement Curve</td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/saramoira/deep_learning/blob/main/images/Dorian_4km_300.gif"></td>
+    <td><img src="https://github.com/saramoira/deep_learning/blob/main/images/Dorian_2km_300.gif"></td>
+  </tr>
+ </table>
 
 In order to obtain datasets that included labels for each image, I first downloaded the [Advanced Dvorak Technique (ADT) history files]() for all the storms. I used this text dataset to download only those satellite images with matching timestamps to the ADT calculations.
 
