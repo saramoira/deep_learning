@@ -6,7 +6,7 @@ I built and tuned two CNN multi-label image classifiers (trained on different da
 
 ## Design 
 
-I downloaded two different image datasets for comparison: [GOES 4km Remapped Color Enhanced Infrared Imagery](), and [GOES 2km Relative IR Imagery with BD Enhancement Curve](). The 4km dataset uses an earth-fixed coordinate system, and the 2km dataset uses a storm-fixed coordinate system:
+I downloaded two different image datasets for comparison: [GOES 4km Remapped Color Enhanced Infrared Imagery](https://rammb-data.cira.colostate.edu/tc_realtime/archive.asp?product=4kmirimg&storm_identifier=al052019), and [GOES 2km Relative IR Imagery with BD Enhancement Curve](https://rammb-data.cira.colostate.edu/tc_realtime/archive.asp?product=4kmsrbdc&storm_identifier=al052019). The 4km dataset uses an earth-fixed coordinate system, and the 2km dataset uses a storm-fixed coordinate system:
 
 <table>
   <tr>
@@ -32,7 +32,7 @@ I chose to compare these datasets in particular because they are produced in rea
 
 * The 4km color image dataset was noisier, and the models didn't perform as consistently as the ones using the 2km images. 
 * The final training set was quite large and I had to downsample the images quite a bit. I also used tf.data.AUTOTUNE to try to manage memory usage during training so that my machine didn't crash.
-* Soft F1 was cool! See this plot as a function of the threshold between 10 and 1:![comparison](https://user-images.githubusercontent.com/1490364/160144383-34496e54-5143-4837-a6ca-902aa792addf.png)
+* Soft F1 was cool! It created a more consistent model with a higher macro F1 score. See this plot of the soft F1 model vs. the binary cross-entropy model (metrics as a function of the threshold between 0 and 1):![comparison](https://user-images.githubusercontent.com/1490364/160144383-34496e54-5143-4837-a6ca-902aa792addf.png)
 
 * I need a lot more training time to be able to implement more complex models. My GPU was maxed out.
 
