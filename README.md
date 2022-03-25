@@ -2,11 +2,11 @@
 Saramoira Shields
 
 ## Abstract
-I built and tuned two CNN multi-label image classifiers (trained on different datasets) to compare their performance at identifying windspeed category and storm structure type for tropical cyclones in the Eastern Pacific and Atlantic. 
+I built and tuned two CNN multi-label image classifiers (trained on different datasets) to compare their performance at identifying windspeed category and storm structure type for tropical cyclones in the Eastern Pacific and Atlantic. I then compared the use of binary cross-entropy vs. soft F1 score as a metric.  
 
 ## Design 
 
-I downloaded two two different image datasets for comparison: [GOES 4km Remapped Color Enhanced Infrared Imagery](), and [GOES 2km Relative IR Imagery with BD Enhancement Curve](). The 4km dataset uses an earth-fixed coordinate system, and the 2km dataset uses a storm-fixed coordinate system:
+I downloaded two different image datasets for comparison: [GOES 4km Remapped Color Enhanced Infrared Imagery](), and [GOES 2km Relative IR Imagery with BD Enhancement Curve](). The 4km dataset uses an earth-fixed coordinate system, and the 2km dataset uses a storm-fixed coordinate system:
 
 <table>
   <tr>
@@ -30,7 +30,10 @@ I chose to compare these datasets in particular because they are produced in rea
 
 ## Outcome
 
-* 
+* The 4km color image dataset was noisier, and the models didn't perform as consistently as the ones using the 2km images. 
+* The final training set was quite large and I had to downsample the images quite a bit. I also used tf.data.AUTOTUNE to try to manage memory usage during training so that my machine didn't crash. 
 
 ## Algorithms/Tools
-This project used BeautifulSoup and Perl for data collection and initial preprocessing, pandas for data cleaning, and Keras for CNN model building. Matplotlib, Tensorboard, and NN-SVG were used for data visualization.
+This project used BeautifulSoup and Perl for data collection and initial preprocessing, pandas for data cleaning, and Keras for CNN model building. Matplotlib was used for data visualization. 
+
+I also implemented a transfer learning pipeline using tf.data. 
